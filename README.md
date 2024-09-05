@@ -68,7 +68,7 @@ This effectively bypasses the password check, allowing the attacker to log in as
 ## Example of SQL Injection Attempt:
 
 ```bash
-curl -X POST -d "username=admin' --&password=anything" http://localhost:3000/login
+curl -X POST -d "username=admin' --&password=anything" http://localhost:8080/login
 ```
 This request would bypass authentication and log the attacker in as the admin.
 
